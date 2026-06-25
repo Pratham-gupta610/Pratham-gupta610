@@ -1,109 +1,126 @@
-<!-- Hero Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:7F5AF0,100:9333EA&height=280&section=header&text=PRATHAM%20GUPTA&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Building%20fast%20systems.%20Learning%20backend.%20Exploring%20cloud.&descAlignY=57&descSize=20&descAlign=50" />
-</p>
+<div align="center">
 
-<!-- Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=7F5AF0&center=true&vCenter=true&width=850&lines=Low-level+Programming;Systems+Programming;Rust+%7C+eBPF+%7C+XDP;Backend+Systems+Learning;Cloud+Infrastructure+Exploration;Performance+Engineering" />
-</p>
+<!-- HERO -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D0D14,40:1E0A3C,100:4C1D95&height=300&section=header&text=PRATHAM%20GUPTA&fontSize=62&fontColor=A78BFA&animation=fadeIn&fontAlignY=38&desc=Systems%20programmer.%20Kernel%20tinkerer.%20Rust%20enthusiast.&descAlignY=58&descSize=18&descColor=6D6D8A&descAlign=50" />
+
+<br/>
+
+<!-- TYPING SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=Writing+eBPF+programs+in+Rust+with+Aya;XDP+packet+processing+%40+wire+speed;1BRC+%E2%80%94+1+billion+rows%2C+3.2+seconds;Lock-free+data+structures+%7C+SIMD+%7C+mmap;The+kernel+is+just+code+you+haven't+read+yet" />
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
-
-```rust
-while alive {
-    code();
-    learn();
-    optimize();
-    repeat();
-}
+```
+$ uname -a && whoami --verbose
+Linux systems 6.x #1 SMP PREEMPT Rust — not garbage collected
+pratham :: CS undergrad | systems programmer | kernel curious
 ```
 
-- Passionate about **low-level programming** and **systems internals**
-- Building high-performance systems in **Rust**
-- Exploring **eBPF**, **XDP**, and Linux kernel internals
-- Learning **backend architecture** and distributed systems
-- Interested in **cloud-native infrastructure** and performance engineering
+I write software where performance isn't a feature — it's the contract. Currently deep in **eBPF/XDP** territory, building network observability tooling from the kernel up. I care about what happens below the abstraction layer.
+
+```
+interests = ["low-level systems", "Rust", "eBPF/XDP", "kernel internals",
+             "lock-free data structures", "SIMD", "backend architecture"]
+```
 
 ---
 
-## ⚙ Tech Stack
+## 🔭 Currently Building
 
-### Low-Level & Systems
-![Rust](https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust)
-![C++](https://img.shields.io/badge/C++-black?style=for-the-badge&logo=cplusplus)
-![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c)
-![Bash](https://img.shields.io/badge/Bash-black?style=for-the-badge&logo=gnubash)
-![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux)
-![eBPF](https://img.shields.io/badge/eBPF-black?style=for-the-badge)
-![XDP](https://img.shields.io/badge/XDP-black?style=for-the-badge)
+<table>
+<tr>
+<td width="12px"><img src="https://img.shields.io/badge/●-10B981?style=flat-square" /></td>
+<td><strong>eBPF Network Telemetry Engine</strong> &nbsp;<code>in progress</code></td>
+</tr>
+</table>
 
-### Backend (Learning)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
-![Node.js](https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-black?style=for-the-badge&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=mongodb)
-![Redis](https://img.shields.io/badge/Redis-black?style=for-the-badge&logo=redis)
+> A production-grade **eBPF packet analyzer** built in Rust using **Aya** and **Tokio** — attaching XDP programs at the NIC driver level for zero-copy packet inspection, per-flow telemetry, and anomaly detection. This is not a toy.
 
-### Cloud & DevOps (Learning)
-![AWS](https://img.shields.io/badge/AWS-black?style=for-the-badge&logo=amazonaws)
-![Docker](https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge&logo=githubactions)
+```
+Architecture
+├── XDP layer        — kernel-side eBPF programs (Aya)  
+├── Perf event ring  — kernel→userspace data pipeline  
+├── Async runtime    — Tokio-based userspace processing  
+├── Flow tracking    — per-connection state machine  
+├── Anomaly engine   — [WIP] statistical detection  
+└── Observability    — [WIP] metrics export + tracing
+```
 
----
-
-## 🚀 Featured Projects
-
-- ⚡ **1BRC in Rust** — 1 Billion Row Challenge in **3.2s**
-- 🔥 **eBPF Network Telemetry Engine** — XDP + flow observability
-- 🧠 **Lost & Found AI** — semantic search + embeddings
-- 🚑 **Hospital Dispatch System** — real-time emergency coordination
-- 🗂 **Jira-like Project Management System**
-- 🛠 **SQL Engine in Rust** *(upcoming)*
+**Stack:** `Rust` · `Aya` · `Tokio` · `XDP` · `eBPF` · `Linux kernel`
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Projects
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pratham-gupta610&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratham-gupta610&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🔥 Streak Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratham-gupta610&theme=tokyonight&hide_border=true" />
-</p>
+| Project | What it does | Stack |
+|---|---|---|
+| **[1BRC in Rust](https://github.com/Pratham-gupta610)** | 1 billion rows parsed in **3.2s** — `mmap` + AVX2 SIMD + branchless parsing + custom open-addressed hash table | `Rust` `AVX2` `SIMD` |
+| **Hosptell** `group · hackathon` | Real-time emergency hospital dispatch and coordination system | `Node.js` `MongoDB` |
+| **Notes CLI** | Terminal-based notes manager with ANSI UI, hierarchical menu system, and custom storage format | `Rust` |
+| **Bankist Website** | Interactive banking UI with animations, lazy loading, and DOM manipulation | `JavaScript` `HTML` `CSS` |
+| **URL Shortener** | URL shortening service with redirect handling and link management | `Node.js` `Express` |
 
 ---
 
-## 📈 Contribution Graph
+## ⚙️ Stack
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratham-gupta610&theme=tokyo-night&hide_border=true" />
-</p>
+**Low-level & Systems**
+
+![Rust](https://img.shields.io/badge/Rust-0D0D14?style=for-the-badge&logo=rust&logoColor=A78BFA)
+![C](https://img.shields.io/badge/C-0D0D14?style=for-the-badge&logo=c&logoColor=A78BFA)
+![C++](https://img.shields.io/badge/C++-0D0D14?style=for-the-badge&logo=cplusplus&logoColor=A78BFA)
+![eBPF](https://img.shields.io/badge/eBPF-0D0D14?style=for-the-badge&logoColor=A78BFA)
+![Linux](https://img.shields.io/badge/Linux-0D0D14?style=for-the-badge&logo=linux&logoColor=A78BFA)
+![Bash](https://img.shields.io/badge/Bash-0D0D14?style=for-the-badge&logo=gnubash&logoColor=A78BFA)
+
+**Backend & Infra**
+
+![Node.js](https://img.shields.io/badge/Node.js-0D0D14?style=for-the-badge&logo=node.js&logoColor=A78BFA)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D0D14?style=for-the-badge&logo=postgresql&logoColor=A78BFA)
+![MongoDB](https://img.shields.io/badge/MongoDB-0D0D14?style=for-the-badge&logo=mongodb&logoColor=A78BFA)
+![Redis](https://img.shields.io/badge/Redis-0D0D14?style=for-the-badge&logo=redis&logoColor=A78BFA)
+![Docker](https://img.shields.io/badge/Docker-0D0D14?style=for-the-badge&logo=docker&logoColor=A78BFA)
+![AWS](https://img.shields.io/badge/AWS-0D0D14?style=for-the-badge&logo=amazonaws&logoColor=A78BFA)
 
 ---
 
-## 🌐 Connect With Me
+## 📊 Stats
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/pratham-gupta-430315368">
-    <img src="https://img.shields.io/badge/LinkedIn-Pratham%20Gupta-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="https://github.com/Pratham-gupta610">
-    <img src="https://img.shields.io/badge/GitHub-Pratham--gupta610-black?style=for-the-badge&logo=github" />
-  </a>
-</p>
+<div align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Pratham-gupta610&show_icons=true&hide_border=true&bg_color=0D0D14&title_color=A78BFA&icon_color=7C3AED&text_color=E2E8F0&ring_color=7C3AED&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=300" />
+&nbsp;
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratham-gupta610&layout=compact&hide_border=true&bg_color=0D0D14&title_color=A78BFA&text_color=E2E8F0&langs_count=8&cache_seconds=300" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=Pratham-gupta610&hide_border=true&background=0D0D14&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=6D6D8A&stroke=0D0D14" />
+
+</div>
 
 ---
 
-<p align="center">
-  <i>Code is my craft. Performance is my obsession. Systems are my playground.</i>
-</p>
+## 📈 Activity
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratham-gupta610&theme=tokyo-night&hide_border=true&bg_color=0D0D14&color=A78BFA&line=7C3AED&point=10B981" />
+</div>
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D0D14?style=for-the-badge&logo=linkedin&logoColor=A78BFA)](https://www.linkedin.com/in/pratham-gupta-430315368)
+[![GitHub](https://img.shields.io/badge/GitHub-0D0D14?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Pratham-gupta610)
+
+</div>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4C1D95,100:0D0D14&height=100&section=footer&reversal=true" />
+</div>
