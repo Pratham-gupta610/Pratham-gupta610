@@ -1,7 +1,7 @@
 <div align="center">
 
 <!--- HERO --->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D0D14,40:1E0A3C,100:4C1D95&height=300&section=header&text=PRATHAM%20GUPTA&fontSize=62&fontColor=A78BFA&animation=fadeIn&fontAlignY=38&desc=Systems%20programmer.%20Kernel%20tinkerer.%20Rust%20enthusiast.&descAlignY=58&descSize=18&descColor=6D6D8A&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D0D14,40:1E0A3C,100:4C1D95&height=300&section=header&text=PRATHAM%20GUPTA&fontSize=62&fontColor=A78BFA&animation=fadeIn&fontAlignY=38&desc=Systems%20programmer.%20Performance%20-%20oriented.%20Rust%20enthusiast.&descAlignY=58&descSize=18&descColor=6D6D8A&descAlign=50" />
 
 <br/>
 
