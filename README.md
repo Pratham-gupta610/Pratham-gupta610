@@ -45,9 +45,10 @@ while alive {
 ![Node.js](https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=node.js)
 ![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-black?style=for-the-badge&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=mongodb)
 ![Redis](https://img.shields.io/badge/Redis-black?style=for-the-badge&logo=redis)
 
-### Cloud & DevOps
+### Cloud & DevOps (Learning)
 ![AWS](https://img.shields.io/badge/AWS-black?style=for-the-badge&logo=amazonaws)
 ![Docker](https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge&logo=githubactions)
