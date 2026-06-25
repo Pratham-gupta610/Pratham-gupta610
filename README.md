@@ -55,7 +55,7 @@ Architecture
 
 **Stack:** `Rust` · `Aya` · `Tokio` · `XDP` · `eBPF` · `Linux kernel`
 
----
+----
 
 ## 🚀 Projects
 
