@@ -20,10 +20,15 @@ pratham :: CS undergrad | systems programmer | kernel curious
 
 I write software where performance isn't a feature — it's the contract. Currently deep in **eBPF/XDP** territory, building network observability tooling from the kernel up. I care about what happens below the abstraction layer.
 
-```
-interests = ["low-level systems", "Rust", "eBPF/XDP", "kernel internals",
-             "lock-free data structures", "SIMD", "backend architecture"]
-```
+<div align="center">
+
+| 🦀 Low-level Systems | ⚡ eBPF / XDP | 🔒 Lock-free Data Structures |
+|:---:|:---:|:---:|
+| ![](https://img.shields.io/badge/-Rust-7C3AED?style=flat-square&logo=rust&logoColor=white) | ![](https://img.shields.io/badge/-eBPF-9333EA?style=flat-square&logoColor=white) | ![](https://img.shields.io/badge/-Atomics-C026D3?style=flat-square&logoColor=white) |
+| **🚀 SIMD & Performance** | **🌐 Backend Architecture** | **☁️ Cloud Infrastructure** |
+| ![](https://img.shields.io/badge/-AVX2-7C3AED?style=flat-square&logoColor=white) | ![](https://img.shields.io/badge/-Distributed_Systems-9333EA?style=flat-square&logoColor=white) | ![](https://img.shields.io/badge/-Cloud_Native-C026D3?style=flat-square&logoColor=white) |
+
+</div>
 
 ---
 
@@ -56,8 +61,8 @@ Architecture
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[1BRC in Rust](https://github.com/Pratham-gupta610)** | 1 billion rows parsed in **3.2s** — `mmap` + AVX2 SIMD + branchless parsing + custom open-addressed hash table | `Rust` `AVX2` `SIMD` |
-| **Hosptell** `group · hackathon` | Real-time emergency hospital dispatch and coordination system | `Node.js` `MongoDB` |
+| **1BRC in Rust** | 1 billion rows parsed in **3.2s** — `mmap` + AVX2 SIMD + branchless parsing + custom open-addressed hash table | `Rust` `AVX2` `SIMD` |
+| **Hosptell** <br/><sub>(group project)</sub> | Real-time emergency hospital dispatch and coordination system | `Node.js` `MongoDB` |
 | **Notes CLI** | Terminal-based notes manager with ANSI UI, hierarchical menu system, and custom storage format | `Rust` |
 | **Bankist Website** | Interactive banking UI with animations, lazy loading, and DOM manipulation | `JavaScript` `HTML` `CSS` |
 | **URL Shortener** | URL shortening service with redirect handling and link management | `Node.js` `Express` |
@@ -77,6 +82,8 @@ Architecture
 
 **Backend & Infra**
 
+![JavaScript](https://img.shields.io/badge/JavaScript-0D0D14?style=for-the-badge&logo=javascript&logoColor=A78BFA)
+![Express](https://img.shields.io/badge/Express-0D0D14?style=for-the-badge&logo=express&logoColor=A78BFA)
 ![Node.js](https://img.shields.io/badge/Node.js-0D0D14?style=for-the-badge&logo=node.js&logoColor=A78BFA)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D0D14?style=for-the-badge&logo=postgresql&logoColor=A78BFA)
 ![MongoDB](https://img.shields.io/badge/MongoDB-0D0D14?style=for-the-badge&logo=mongodb&logoColor=A78BFA)
@@ -86,18 +93,10 @@ Architecture
 
 ---
 
-## 📊 Stats
+## 📊 Most Used Languages
 
 <div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Pratham-gupta610&show_icons=true&hide_border=true&bg_color=0D0D14&title_color=A78BFA&icon_color=7C3AED&text_color=E2E8F0&ring_color=7C3AED&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=300" />
-&nbsp;
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratham-gupta610&layout=compact&hide_border=true&bg_color=0D0D14&title_color=A78BFA&text_color=E2E8F0&langs_count=8&cache_seconds=300" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Pratham-gupta610&hide_border=true&background=0D0D14&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=6D6D8A&stroke=0D0D14" />
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pratham-gupta610&layout=compact&hide_border=true&bg_color=0D0D14&title_color=A78BFA&text_color=E2E8F0&langs_count=8&cache_seconds=300" />
 </div>
 
 ---
