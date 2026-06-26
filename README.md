@@ -62,7 +62,7 @@ Architecture
 | Project | What it does | Stack |
 |---|---|---|
 | **1BRC in Rust** | 1 billion rows parsed in **3.2s** — `mmap` + AVX2 SIMD + branchless parsing + custom open-addressed hash table | `Rust` `AVX2` `SIMD` |
-| **Hosptell** <br/><sub>(group project)</sub> | Real-time emergency hospital dispatch and coordination system | `Node.js` `MongoDB` |
+| **Hospitell** <br/><sub>(group project)</sub> | Real-time emergency hospital dispatch and coordination system | `Node.js` `MongoDB` |
 | **Notes CLI** | Terminal-based notes manager with ANSI UI, hierarchical menu system, and custom storage format | `Rust` |
 | **Bankist Website** | Interactive banking UI with animations, lazy loading, and DOM manipulation | `JavaScript` `HTML` `CSS` |
 | **URL Shortener** | URL shortening service with redirect handling and link management | `Node.js` `Express` |
